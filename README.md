@@ -106,3 +106,16 @@ Genera exclusivamente un objeto JSON válido que contenga la siguiente estructur
     "mandatory_human_actions": ["string"]
   }
 }
+
+## ⚖️ Exención de Responsabilidad / Legal Disclaimer
+
+### 🇪🇸 Castellano
+Este sistema de agentes de Inteligencia Artificial (`EU Food Law Compliance AI Agent`) actúa exclusivamente como una herramienta de triaje previo, asistencia técnica y pre-filtrado automatizado de datos textuales. 
+
+* **No constituye asesoramiento legal:** Los análisis, clasificaciones de riesgo y veredictos emitidos por este agente no representan un dictamen jurídico vinculante ni sustituyen los canales oficiales de consulta regulatoria de la Unión Europea o sus Estados miembros.
+* **Supervisión Humana Obligatoria (Human-in-the-Loop):** Conforme al Reglamento (UE) 2024/1689 (Ley de IA), este sistema está clasificado como una herramienta de soporte y requiere obligatoriamente la validación, revisión y firma técnica final de un **auditor humano cualificado** antes de aprobar cualquier lote, diseño de empaque o formulación para el mercado.
+* **Limitación de responsabilidad:** El creador del repositorio y los contribuidores no se hacen responsables de sanciones, retiradas de mercado (alertas RASFF) o pérdidas económicas derivadas del uso de este software.
+
+### 🇬🇧 English
+This AI Agent system acts solely as an automated pre-filtering and triage tool. It does not provide binding legal advice or replace official EU regulatory reviews. In compliance with Reg. (EU) 2024/1689 (AI Act), this tool requires strict human-in-the-loop validation. The authors accept no liability for any non-compliance or market withdrawals (RASFF alerts) resulting from the use of this system.
+
