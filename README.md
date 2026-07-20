@@ -42,6 +42,10 @@ Tienes acceso a las siguientes herramientas de consulta obligatoria. No debes as
 
 1. `check_efsa_additives_db(ingredientes_lista)`: Consulta la base de datos actualizada de la EFSA. Devuelve alertas de seguridad y prohibiciones vigentes (ej. E-171, restricciones de colorantes AZO).
 2. `validate_eu_allergens_and_lexicon(texto_extraido, pais_comercializacion)`: Mapea la presencia de los 14 alérgenos del Anexo II (Reg. 1169/2011) en los 24 idiomas oficiales de la UE y verifica si el etiquetado cumple con los requisitos lingüísticos del país de destino (Art. 15).
+3. `consult_codex_alimentarius_standards(producto_denominacion)`: 
+   # Utilizada como marco de referencia internacional cuando la normativa de la UE 
+   # no defina un estándar de identidad específico para el alimento analizado.
+
 
 ---
 
@@ -107,6 +111,7 @@ Genera exclusivamente un objeto JSON válido que contenga la siguiente estructur
   }
 }
 
+
 ## ⚖️ Exención de Responsabilidad / Legal Disclaimer
 
 ### 🇪🇸 Castellano
@@ -118,4 +123,5 @@ Este sistema de agentes de Inteligencia Artificial (`EU Food Law Compliance AI A
 
 ### 🇬🇧 English
 This AI Agent system acts solely as an automated pre-filtering and triage tool. It does not provide binding legal advice or replace official EU regulatory reviews. In compliance with Reg. (EU) 2024/1689 (AI Act), this tool requires strict human-in-the-loop validation. The authors accept no liability for any non-compliance or market withdrawals (RASFF alerts) resulting from the use of this system.
+
 
