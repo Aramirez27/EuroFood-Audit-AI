@@ -19,7 +19,7 @@ El agente está diseñado para acoplarse a un entorno de desarrollo (ej. LangCha
 
 Las instrucciones maestras de comportamiento, restricciones, herramientas requeridas y el esquema JSON estricto de salida se encuentran modularizados en su propio archivo dentro del repositorio:
 
-👉 **[Acceder al System Prompt del Agente](./core/agent_system_prompt.md)**
+👉 **[Acceder al System Prompt del Agente](./core/agent-system-prompt.md)**
 
 ---
 
